@@ -19,7 +19,7 @@ export default function Home() {
   >
     <Stack width="800px" height="600px" spacing={2}>
 
-      (item.map(i) => {
+      {item.map((i) => (
         <Box
         width="100%" 
         height="100px"
@@ -30,7 +30,7 @@ export default function Home() {
         >
           {i}
         </Box>
-        })
+        ))}
     </Stack>
   </Box>
 }
